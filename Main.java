@@ -8,6 +8,8 @@ public class Main{
                    Scanner num = new Scanner (System.in);
                    int digito1;
                    int digito2;
+                   int op; 
+                   do{
 
                    System.out.println("Ejercicio 1 ");
                    System.out.println("");
@@ -39,7 +41,14 @@ public class Main{
 
                             }
 
-                          
+                                System.out.println("desea comparar otro numero?");
+                                System.out.println("1. Si");
+                                System.out.println("2. No");
+
+                                op = num.nextInt();   
+
+
+                         }while(op==2);
   
                            System.out.println("MUCHAS GRACIAS POR UTILIZAR ESTE SOFTWARE");
 
